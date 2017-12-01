@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/wpm002"
+    tools:ignore="MissingConstraints"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/ichem001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/icpvpm001"
+        android:layout_alignStart="@+id/icpvpm001"
+        android:layout_alignTop="@+id/icmam001"
+        android:background="@drawable/anim_hem001"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/icmam001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/icpvem001"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/icpvem001"
+        android:layout_marginTop="46dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/icmam001" />
+
+    <ImageButton
+        android:id="@+id/icpvpm001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@+id/ictem001"
+        android:layout_alignStart="@+id/ictem001"
+        android:layout_alignTop="@+id/icpvem001"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/icpvpm001" />
+
+    <ImageButton
+        android:id="@+id/icpvem001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/icaym001"
+        android:layout_alignLeft="@+id/icaym001"
+        android:layout_alignStart="@+id/icaym001"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="260dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/icpvem001" />
+
+    <ImageButton
+        android:id="@+id/ictem001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/icaym001"
+        android:layout_marginLeft="48dp"
+        android:layout_marginStart="48dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/ictem001" />
+
+    <ImageButton
+        android:id="@+id/icaym001"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/icaym001" />
+
+</RelativeLayout>
