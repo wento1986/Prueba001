@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="clash.castle.gamers.a4.castleinside">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".Activity_SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".actjme.Activity_Hem"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjme.Activity_Mam"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjme.Activity_Pvpm"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjme.Activity_Pvem"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjme.Activity_Tem"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjme.Activity_Aym"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".actjhe001.ActivityIch001"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch002"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch003"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch004"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch005"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch006"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch007"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch008"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch009"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch010"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch011"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch012"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch013"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch014"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch015"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch016"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch017"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch018"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch019"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch020"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch021"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch022"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch023"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch024"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch025"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch026"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch027"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch028"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch029"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch030"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch031"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch032"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch033"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch034"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch035"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch036"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch037"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch038"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch039"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch040"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch041"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch042"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch043"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch044"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch045"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch046"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch047"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch048"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch049"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch050"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch051"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".actjhe001.ActivityIch052"
+            android:label="@string/app_name" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>
